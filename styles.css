@@ -1,0 +1,50 @@
+#output {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+    text-align: center;
+    background-color: rgb(161, 161, 233);
+    color: black;
+    border-radius: 8px;
+    border-style: inset;
+  }
+  
+  body {
+    background-color: rgb(68, 71, 112);
+  }
+  
+  #clean {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  #clean:hover {
+    background-color: rgb(6, 126, 66);
+    color: white;
+    border-radius: 8px;
+  
+  }
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+  
+  #num1 {
+    position: absolute;
+    left: 40%;
+  }
+
+  #num2 {
+    position: absolute;
+    left: 50%;
+  }
+
+  #mode {
+    position: absolute;
+    left: 40%
+    
+  }

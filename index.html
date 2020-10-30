@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="../../../JS/bootcamp2020/miniCalculator/styles.css" rel="stylesheet" type="text/css" />
+  <script src="../../../JS/bootcamp2020/miniCalculator/script.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="header">
+      <h1>Header</h1>
+      <p>My supercool header</p>
+    </div>
+  </div>
+  <div>
+    <p>Number 1: </p>
+    <p>Number 2: </p>
+  </div>
+  <div id="app">
+    <input type="text" id="num1">
+
+    <select id="mode">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    
+    <input type="text" id="num2">
+
+    <button id="calculate" onclick="myFunction()">CALCULATE</button><br><br>
+
+    <button id="clean" onclick="cleanFunc()">RESET</button>
+    <p id="output"></p>
+
+
+  </div>
+</body>
+
+</html>
