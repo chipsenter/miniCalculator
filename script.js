@@ -21,13 +21,18 @@ function myFunction() {
         default:
     }
     
-    console.log(result);
+
+    // Output result to user
     document.getElementById('output').innerHTML = Math.round(result);
-  
-  
+    document.getElementById('output').style.borderStyle = "inset";
+    
   }
+  
   
   function cleanFunc() {
     document.getElementById('output').innerHTML = "";
-    document.getElementById('clean').innerHTML = "";
+    document.getElementById('num1').innerHTML = "";
+    document.getElementById('num2').innerHTML = "";
   }
+
+ 
